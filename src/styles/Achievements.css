@@ -1,0 +1,58 @@
+.achievements {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: min(max-content, 70%);
+}
+
+.ach {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 13px;
+    padding: 10px;
+    background-color: rgb(154, 238, 143);
+    color: black;
+}
+
+.achDes {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.achDel {
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+}
+
+.achDel img {
+    height: 40px;
+    width: auto;
+}
+
+.achHead {
+    margin: 0;
+    padding: 20px 0;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.achAdd {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+@media (width<375px) {
+    .jobLab, .comLab, .desLab {
+        font-size: 11px;
+    }
+}
+
+@media (375px<= width <=400px) {
+    .jobLab, .comLab, .desLab {
+        font-size: 15px;
+    }
+}

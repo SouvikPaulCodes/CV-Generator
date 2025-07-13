@@ -1,0 +1,21 @@
+.personal {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: min(max-content, 70%);
+}
+
+.nameLab, .phoneLab, .emailLab {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.personalHead {
+    margin: 0;
+    padding: 20px 0;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}

@@ -1,0 +1,26 @@
+form {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.Dark {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.Light {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.submit {
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 15px;
+}

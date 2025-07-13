@@ -1,0 +1,42 @@
+header {
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 10px 10px inset rgb(125, 125, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px ;
+}
+
+.title {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.head-side {
+    display: flex;
+    align-items: center;
+}
+
+.themeBut {
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+  
+.Dark {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.Light {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+@media (width <= 600px) {
+    header {
+        position: static
+    }
+}
