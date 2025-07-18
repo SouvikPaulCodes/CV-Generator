@@ -4,7 +4,9 @@ A modern, interactive resume/CV generator built with React and Vite. Create prof
 
 ## 🚀 Live Demo
 
-**[View Live Application](https://souvikpaulcodes.github.io/CV-Generator/)**
+**[View Live Application](https://cv-generator-souvik.netlify.app)**
+
+> 🌐 **Deployed on Netlify** - Fast, secure, and reliable hosting
 
 ## ✨ Features
 
